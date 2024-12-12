@@ -5,7 +5,7 @@
   "main": "./dist/main/minio.js",
   "module": "./dist/esm/minio.mjs",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "npm run build",
     "tsc": "tsc",
     "type-check": "tsc --noEmit --emitDeclarationOnly false",
     "build": "node build.mjs",
